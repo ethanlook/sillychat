@@ -3,8 +3,8 @@
 
 
 // Necessary modules
-require('./stylesheets/base.css');
 require('bootstrap-webpack');
+require('./stylesheets/base.css');
 let Router          = require('./routes');
 let io = require("socket.io-client");
 
